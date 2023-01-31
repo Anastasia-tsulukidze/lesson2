@@ -1,0 +1,221 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*code starts here*/
+
+/* size of the page */
+body {
+  width: 1440px;
+  height: 1024px;
+}
+
+/* nav goes here */
+li {
+  display: inline;
+  height: 30px;
+}
+
+nav {
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Poppins" sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  /* height: 87px; */
+  padding-bottom: 30px;
+}
+a {
+  padding-right: 66px;
+  text-decoration: none;
+
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+}
+.contact {
+  padding-right: 0;
+}
+/* main contact 
+that contains photos its sizes text its sizes and its article */
+
+.content {
+  display: inline-block;
+  width: 333px;
+  height: 481px;
+  margin-left: 110.25px;
+}
+/* this is correct */
+.cont {
+  margin-top: 166px;
+  border: 1px solid #000000;
+}
+
+img {
+  width: 313px;
+  top: 206.59px;
+  margin: 10px;
+}
+h3 {
+  width: 265.95px;
+  height: 25.52px;
+  font-weight: lighter;
+  padding-left: 26px;
+  margin-top: 20px;
+  margin-bottom: 18.48px;
+  font-size: 20px;
+}
+
+p {
+  width: 282.71px;
+  height: 51.04px;
+  padding-left: 26px;
+  font-family: "popping" sans-serif;
+  margin-bottom: 21.96px;
+}
+/* bottom 
+that defines its own sizes and its location*/
+button {
+  /* font-size: larger; */
+  margin-top: 23px;
+  height: 30px;
+  width: 118px;
+  margin-left: 215px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.one {
+  margin-left: 126px;
+}
+.two {
+  margin-left: 112px;
+}
+.three {
+  margin-left: 96px;
+}
